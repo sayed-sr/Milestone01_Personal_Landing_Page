@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* this header part is very special */
+header{
+    background-color: #FFF8F3;
+    background: url(images/developer.png), url(images/header_bg.png), #FFF8F3;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+     padding-top: 50px;
+}
+
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+} 
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    padding:18px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+   width:71%;
+   max-width: 1140px;
+   /* border: 1px solid red; */
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo h2{
+font-size: 45px;
+font-weight: 900;
+}
+
+
+.menu{
+    display:flex;
+    gap: 51px;
+    align-items: center;
+}
+
+.nav .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#474747;
+}
+
+
+
+
+/*================= Banner ======================== */
+
+#banner{
+    /* border: 1px solid red; */
+    margin:47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-img img{
+    max-width: 586px;
+    vertical-align: middle; /*special for img*/
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: semi-bold;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+     
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: regular;
+    color:#757575;
+    margin-bottom: 30px;
+}
+
+#banner .banner-content .banner-btn{
+    display: flex;;
+    gap:30px;
+}
+
+
+
+/*================= About me ======================== */
+
+#about{
+    
+    border:1px solid red;
+   padding: 130px;
+   
+    
+}
+
+
+#about .about-content{
+    border:1px solid red;
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 131px 157px;
+}
+
+
+
+
+
+
+#about .about-info {
+
+display: flex;
+gap:50px;
+justify-content: space-around;
+font-size: 15px;
+
+}
+
+
+
+
+#about .about-content .section-heading h2{
+    font-weight: 35px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 30px;
+    
+}
+#about .about-content .section-heading p{
+    font-weight: 18px;
+    font-weight: regular;
+    color:#757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+    
+}
+
+
+
+#about .about-info .info-card p {
+  color:#757575;
+  line-height: 30px;
+  
+}
+#about .about-info .info-card h4 {
+  color:#474747;
+  
+}
